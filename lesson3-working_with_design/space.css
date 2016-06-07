@@ -1,0 +1,58 @@
+.space-img {
+  background: url("bg_body.gif");
+  background-repeat: repeat;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 55px;
+  padding: 30px 0 30px 0;
+}
+
+#main {
+  background: white;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  max-width: 987px;
+  height: 990px;
+}
+
+article {
+  font-family: 'Times Roman', sans-serif;
+  font-size: 20px;
+  width: 650px;
+  padding-left: 152px;
+  padding-top: 85px;
+ }
+
+h2 {
+  color: black;
+  font-size: 40px;
+}
+
+h3 {
+  color: #90C3D4;
+}
+
+p {
+  color: gray;
+  font-style: bold;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 65px;
+}
+
+#foot {
+  background: lightgray;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  max-width: 987px;
+  height: 95px;
+  padding: 20px 0 20px 0;
+  position: relative;
+  bottom: 100px;
+}
+
