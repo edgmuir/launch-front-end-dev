@@ -1,0 +1,85 @@
+@import url("whitespace-reset.css");
+
+body {
+	font: normal 18px "Roboto Condensed", sans-serif;
+	color: #3e606f;
+	background-image: linear-gradient(to bottom, #d2dbbd, #fcfff5);
+	background-repeat: no-repeat;
+}
+
+header {
+	width: 920px;
+	padding: 20px 20px 0 20px;
+	margin: 0 auto;
+}
+
+h1 {
+	float: left;
+	padding: 45px 0 15px 115px;
+	font-size: 36px;
+	font-weight: normal;
+	color: #193441;
+	background: transparent url("logo.png")	0 0 no-repeat;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-left: 30px;
+	font-weight: 400;
+}
+
+nav {
+	float: right;
+	padding: 75px 0 0 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	padding: 10px 40px 14px 40px;
+	text-decoration: none;
+	color: #91aa9d;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background: #fcfff5;
+}
+
+nav a.active {
+	color: #fcfff5;
+	background: #91aa9d;
+}
+
+section {
+	background-color: #ffffff;
+	width: 970px;
+	height: 1200px;
+	margin-top: 136px;
+	margin-left: 337px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+img {
+	padding: 0 30px;
+}
+
+p {
+	padding-left: 30px;
+	float: left;
+}
+
+.fitted {
+	width: 55%;
+}
+footer {
+	margin-left: 335px;
+	padding-top: 10px;
+	}
+
+aside {
+	float: right;
+	margin-top: -567px;
+	margin-right: 368px;
+}
