@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Form - Ex 1</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!-- Contact form showing first and last name, email and phone number-->
+    <form action="" method="post">
+      <fieldset>
+        <h1>Contact Form</h1>
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name">
+        <label for="last">Last Name</label>
+        <input type="text" name="last" id="last">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" autocomplete="off" autocapitalize="none" autocorrect="none">
+        <label for="phone">Telephone #</label>
+        <input type="tel" name="phone" id="phone" autocomplete="off" autocapitalize="none" autocorrect="none">
+        <input type="submit" value="Send" />
+      </fieldset>
+    </form>
+  </body>
+</html>

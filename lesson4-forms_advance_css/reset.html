@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter Form - Ex 5</title>
+    <style>
+			select {
+				display: block;
+				margin-bottom: 10px;
+			}
+	</style>
+</head>
+
+<body>
+ 	<form action="" method="get">
+ 		<fieldset>
+ 			<!-- Option element is used to select more than one option -->
+ 			<select multiple>
+ 				<optgroup label="Categories">
+ 					<option>Core</option>
+ 					<option>Plugins and Libraries</option>
+ 					<option>Conventions</option> 							
+ 					<option>Reviews</option>
+ 					<option>Opinion</option>
+ 					<option>People</option>	
+ 				</optgroup>
+			</select>
+				
+			<select multiple>	
+ 				<optgroup label="Tags">
+ 						<option>HTML</option>		
+ 						<option>CSS</option>
+ 						<option>Javascript</option>
+ 						<option>Ruby</option>							
+ 						<option>Rails</option>
+ 						<option>Python</option>
+ 						<option>Django</option>
+ 				</optgroup>
+ 			</select>
+ 			
+ 			<input type="submit" value="Filter">
+ 			<input type="reset" value="Clear Form">
+ 			
+ 		</fieldset>
+ 	</form>   
+ </body>
+</html>

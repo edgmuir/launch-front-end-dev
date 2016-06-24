@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Form - Ex 2</title>
+    <style>
+      label, input {
+        display: block;
+      }
+      input {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!-- Contact form showing first and last name, email and phone number-->
+    <form action="" method="post">
+      <fieldset>
+        <h1>Contact Form</h1>
+        <label for="name">First Name</label>
+          <input type="text" name="name" id="name">
+        <label for="last">Last Name</label>
+          <input type="text" name="last" id="last">
+        <label for="email">Email</label>
+          <input type="email" name="email" id="email" autocomplete="off" autocapitalize="none" autocorrect="none">
+        <label for="phone">Telephone #</label>
+          <input type="tel" name="phone" id="phone" autocomplete="off" autocapitalize="none" autocorrect="none">
+        <label for="phone_sel">Select Phone</label>
+        <select name="phone_sel" id="phone_sel">
+          <option value="home" selected>Home</option>
+          <option value="business">Business</option>
+          <option value="mobile">Mobile</option>
+        </select>
+        <input type="submit" value="Send" />
+      </fieldset>
+    </form>
+  </body>
+</html>
