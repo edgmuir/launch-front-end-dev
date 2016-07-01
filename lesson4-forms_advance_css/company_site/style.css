@@ -1,0 +1,206 @@
+@import url("whitespace-reset.css");
+
+/*
+------------------------------------------------------
+	
+				CSS for Index Page (Home)
+
+-----------------------------------------------------
+*/
+
+body {
+	background: url("images/bg_body.gif") 50%;
+	font: normal 20px "Avenir", Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-top: 135px;
+}
+
+header h1 {
+	margin: 0 0 115px 0;
+}
+
+nav {
+	font-size: 26px;
+	text-transform: uppercase;
+	padding-bottom: 55px;
+}
+
+nav li {
+	display: inline;
+	padding: 42px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+
+nav a.active {
+	color: #6db9ff;
+	font-weight: bold;
+}
+
+main {
+	padding-top: 120px;
+	background: white;
+}
+
+div {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 260px;
+	padding: 0 0 110px 0;
+}
+
+article p {
+	font-size: 20px;
+	width: auto;
+	margin: 0 360px 0 340px;
+	text-align: justify;
+}
+
+p {
+	color: grey;
+	font-weight: bold;
+}
+
+h2 {
+	color: dimgray;
+	font-size: 35px;
+}
+
+h3 {
+	color: #3e59b2;
+}
+
+footer {
+	background: #e7e7e7;
+	width: 100%;
+	height: 280px;
+	position: absolute;
+	
+}
+
+footer p {
+	text-align: center;
+	width: 800px;
+	margin: 0 auto 0 auto;
+	padding: 85px 0 45px 0;
+}
+
+footer li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 60px;
+}
+
+footer li a  {
+	display: block;
+	width: 46px;
+	height: 46px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: transparent url("images/icons_social-media.png") 0 0 no-repeat;
+	}
+
+footer li a.facebook {
+	background-position: 0 -46px;
+}
+
+footer li a.email {
+	background-position: 0 -92px;
+}
+
+footer li a.instagram {
+	background-position: 0 100%;
+}
+
+/*
+-------------------------------------------------------------
+
+         		CSS for Projects Page
+
+-------------------------------------------------------------
+*/
+
+.container {
+	height: 2100px;
+}
+
+.projects {
+	width: 100%;
+	height: 650px;
+	padding-top: 50px;
+}
+
+.projects h3 {
+	padding-top: 50px;
+}
+
+.projects p {
+	text-align: center;
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+
+.moments {
+	width: auto;
+	height: 725px;
+}
+
+.moments h3 {
+	padding-top: 30px;
+}
+
+.moments img {
+	padding-top: 100px;
+}
+.moments p {
+	text-align: center;
+	width: 800px;
+	margin: 0 auto 0 auto;
+	
+}
+
+.trip {
+	width: auto;
+	height: 725px;
+}
+
+.trip h3 {
+	padding-top: 30px;
+}
+
+.trip p {
+	text-align: center;
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+
+/*
+----------------------------------------------------------------
+
+					CSS for Team Page
+
+----------------------------------------------------------------
+*/
+
+article {
+	height: 575px;
+}
+
+.team img {
+	padding: 110px 40px 20px 40px;
+	display: block;
+}
+
+.team li a {
+	text-decoration: none;
+	text-align: center;
+}
+
+.team li {
+	display: inline-block;
+	list-style: none;
+}
